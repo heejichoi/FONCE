@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px/1.5;
+    color: #333333;
+    background: #ffffff
+}
+.d-none {
+    display: none;
+}
+a, a:link {
+    color: inherit;
+    text-decoration: none
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin: 0 auto;
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f7dbcf;
+}
+.logo {
+    width: 200px;
+    padding-left: 30px;
+}
+.nav {
+    padding-top: 10px;
+    color: #e02f2c;
+    font-weight: bold;
+}
+.logo img {
+    width: 80%;
+    padding-top: 20px;
+}
+#gnb {
+    width: 640px;
+    display: flex;
+    margin: 0 1rem 0 0;
+}
+#gnb > li {
+    width: calc(100% / 4);
+    position: relative
+}
+.on {
+    border-bottom: 1px solid #e02f2c;
+    color: white;
+}
+.sub {
+    background: #d9cac2;
+}
+#gnb > li > a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.lnb {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 108px;
+    background: #fef3ec;
+    text-align: center
+}
+.lnb > li a {
+    display: block;
+    padding: 10px 0
+}
+.header-main {
+    background: #f7dbcf;
+    text-align: center;
+}
+.header-center {
+    padding-top: 110px;
+}
+.header-center img {
+    width: 40%;
+}
+.deco-logo {
+    padding-left: 770px;
+    padding-bottom: 30px;
+}
+.deco-logo img {
+    width: 60%;
+}
+.weekly-best {
+    background: #d9cac2;
+    display: flex;
+}
+.best-img {
+    padding: 2rem 0 2rem 12rem;
+}
+.best-img img {
+    width: 45%;
+}
+.best-text {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    right: 18%;
+    padding-top: 70px;
+}
+.best-text h2 {
+    font-weight: bold;
+    color: #e02f2c;
+    font-size: 30px;
+    padding-right: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.best-text h3 {
+    font-weight: lighter;
+    font-size: 40px;
+    letter-spacing: 15px;
+    color: #333333;
+    padding-bottom: 70px;
+}
+.best-text p {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #fefefe;
+    background: #333333;
+    padding: 15px 70px;
+}
+.summer-flaver {
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    height: 500px;
+    background: #fef3ec;
+    column-gap: 100px;
+}
+.summer-title {
+    font-weight: bold;
+    color: #e02f2c;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+.slider {
+    background: none;
+}
+.slide {
+    width: 50%;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.slide p {
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: #e02f2c;
+    border-top: 2px solid #e02f2c ;
+}
+.bx-wrapper .bx-prev {
+    left: -28px !important;
+    background: url(../images/left.png) !important;
+}
+.bx-wrapper .bx-next {
+    right: -3px !important;
+    background: url(../images/next.png) !important;
+}
+
+.bx-wrapper {
+    border: 0 !important;
+    box-shadow: none !important;
+    background: none !important;
+  }
+  .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: 100px;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+.footer {
+    display: flex;
+    column-gap: 220px;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 30px;
+    border-top:1px solid #e02f2c;
+}
+.time h2 {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: #e02f2c;
+}
+.time p {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+}
+.info h2 {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: #e02f2c;
+}
+.info p {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+}
+.footer-info {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    height: 200px;
+}
+.sns ul {
+    display: flex;
+    column-gap: 15px;
+    padding-left: 548px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copy {
+    padding-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+}
