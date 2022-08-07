@@ -115,10 +115,12 @@ ul, ol {
 
 .footer {
     display: flex;
-    column-gap: 220px;
+    padding-left: 62px;
+    column-gap: 300px;
+    justify-content: center;
     margin: 0 auto;
     text-align: center;
-    padding-left: 200px;
+    align-items: center;
     padding-top: 30px;
     border-top:1px solid #e02f2c;
 }
@@ -148,14 +150,16 @@ ul, ol {
 }
 .footer-info {
     margin: 0 auto;
+    justify-content: center;
     text-align: center;
+    align-items: center;
     padding-top: 20px;
     height: 200px;
 }
 .sns ul {
     display: flex;
+    justify-content: center;
     column-gap: 15px;
-    padding-left: 548px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
