@@ -89,7 +89,7 @@ ul, ol {
 .contents{
     margin: 0 auto;
     padding-top: 15%;
-    padding-left: 60px;
+    padding-left: 170px;
 }
 .shop-info h2 {
     font-size: 50px;
@@ -190,6 +190,7 @@ ul, ol {
 }
 #map {
     margin: 0 auto;
+    justify-content: center;
     width:1200px;
     height: 500px;
     padding-top: 130px;

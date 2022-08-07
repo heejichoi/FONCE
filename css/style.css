@@ -206,7 +206,7 @@ ul, ol {
 .footer {
     display: flex;
     padding-left: 62px;
-    column-gap: 300px;
+    column-gap: 275px;
     justify-content: center;
     margin: 0 auto;
     text-align: center;
